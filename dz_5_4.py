@@ -11,7 +11,7 @@ def input_error(func):
         except KeyError:
             return "Enter a valid command."
         except ValueError:
-            return "Invalid input. Please provide correct data."
+            return "Invalid input. Try again."
         except IndexError:
             return "Invalid input format. Please try again."
 
